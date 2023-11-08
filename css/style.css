@@ -25,11 +25,11 @@
 .header-nav-link {
     text-decoration: none;
     color: gray;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 .header-nav-item:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 1.2vw;
 }
 
 .eyecatch {
@@ -38,7 +38,7 @@
 }
 
 .eyecatch-img-container {
-    width: 70%;
+    width: 65%;
     height: auto;
     margin: 0 0 0 auto;
 }
@@ -57,12 +57,12 @@
 }
 
 .catchcopy-main {
-    font-size: 65px;
+    font-size: 4.5vw;
     color: darkred;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
     line-height: 1.5em;
-    margin-bottom: 30px;
+    margin-bottom: 2.5vw;
 }
 
 .catchcopy-main-word {
@@ -70,10 +70,10 @@
 }
 
 .catchcopy-sub {
-    font-size: 22px;
+    font-size: 1.5vw;
     color: darkred;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 1vw;
 }
 
 .catchcopy-sub-word {
@@ -81,7 +81,7 @@
 }
 
 .catchcopy-about {
-    font-size: 16px;
+    font-size: 1vw;
     color: gray;
     line-height: 1.3em;
 }
@@ -132,7 +132,7 @@
 }
 
 .news-item {
-    padding: 20px 100px 20px 0;
+    padding: 20px 0;
     color:gray;
     font-size: 15px;
     border-bottom: solid 1px gray;
@@ -161,13 +161,12 @@
 .unit {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px 0 200px;
+    margin: 50px 15% 0 15%;
 }
 
 .unit-img-container {
     width: 50%;
     height: auto;
-    margin: 0 0 0 auto;
 }
 
 .unit-img {
@@ -175,16 +174,17 @@
 }
 
 .unit-text {
-    font-size: 16px;
+    font-size: 1.3vw;
+    width: 50%;
     color: gray;
-    margin-right: 200px;
+    margin-right: 15%;
     line-height: 1.5em;
 }
 
 .service {
     margin-bottom: 50px;
     position: relative;
-    height: 600px;
+    height: 40vw;
 }
 
 .service .category {
@@ -209,7 +209,7 @@
     left: 20%;
     top: 80px;
     width: 60%;
-    height: 500px;
+    height: 30vw;
     display: flex;
 }
 
@@ -226,6 +226,7 @@
     height: 50%;
     background-color: mediumvioletred;
     display: flex;
+    align-items: center;
 }
 
 .wrap-right-bottom {
@@ -236,6 +237,7 @@
     height: 50%;
     background-color: plum;
     display: flex;
+    align-items: center;
 }
 
 .wrap-img-container {
@@ -246,6 +248,7 @@
 
 .wrap-img {
     width: 100%;
+    height: 100%;
 }
 
 .wrap-left .wrap-img-container {
@@ -257,12 +260,12 @@
 }
 
 .wrap-about-ttl {
-    font-size: 20px;
+    font-size: 1.5vw;
     margin-bottom: 16px;
 }
 
 .wrap-about-text {
-    font-size: 14px;
+    font-size: 0.85vw;
     line-height: 1.5em;
 }
 
@@ -311,12 +314,12 @@
     display: flex;
     justify-content: space-between;
     margin: 0 20%;
-    height: 300px;
+    height: 20vw;
 }
 
 .blog-card {
     width: 30%;
-    border-radius: 16px;
+    border-radius: 12px;
     background-color: white;
     position: relative;
     z-index: 0;
@@ -334,17 +337,18 @@
 .blog-card-img {
     width: 100%;
     height: 100%;
-    border-radius: 16px 16px 0 0;
+    border-radius: 12px 12px 0 0;
 }
 
 .blog-card-header {
     position: relative;
     z-index: 10;
     color: white;
-    border-radius: 16px 0 0 0;
+    border-radius: 12px 0 0 0;
     background-color: deeppink;
     display: inline-block;
     padding: 10px;
+    font-size: 0.9vw;
 }
 
 .blog-card-ttl {
@@ -352,6 +356,7 @@
     top: 60%;
     padding: 20px;
     line-height: 1.2em;
+    font-size: 0.9vw;
 }
 
 .blog-card-date {
@@ -359,6 +364,7 @@
     top: 80%;
     left: 0%;
     padding: 20px;
+    font-size: 0.9vw;
 }
 
 .blog-card-tag {
@@ -366,6 +372,7 @@
     top: 80%;
     left: 50%;
     padding: 20px 0;
+    font-size: 0.9vw;
 }
 
 .page {
@@ -451,7 +458,7 @@
 
 .recruit-ttl {
     color: white;
-    font-size: 32px;
+    font-size: 2.5vw;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -471,7 +478,7 @@
 
 .interview-ttl {
     color: white;
-    font-size: 32px;
+    font-size: 2.5vw;
     position: absolute;
     left: 50%;
     top: 50%;
