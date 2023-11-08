@@ -1,0 +1,534 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 10px;
+}
+
+.header-ttl {
+    width: 10%;
+}
+
+.estra-logo {
+    width: 100%;
+}
+
+.header-nav-list {
+    display: flex;
+}
+
+.header-nav-item {
+    list-style: none;
+}
+
+.header-nav-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.eyecatch {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.eyecatch-img-container {
+    width: 70%;
+    height: auto;
+    margin: 0 0 0 auto;
+}
+
+.eyecatch-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: -1;
+}
+
+.catchcopy {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+
+.catchcopy-main {
+    font-size: 65px;
+    color: darkred;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.catchcopy-main-word {
+    color: darkcyan;
+}
+
+.catchcopy-sub {
+    font-size: 22px;
+    color: darkred;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.catchcopy-sub-word {
+    color: darkcyan;
+}
+
+.catchcopy-about {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.3em;
+}
+
+.news {
+    margin-bottom: 50px;
+}
+
+.news .category {
+    height: 50px;
+    position: relative;
+}
+
+.news .category-ttl {
+    position: absolute;
+    left: 15%;
+}
+
+.news .category-detail {
+    position: absolute;
+    top: 20px;
+    left: 15%;
+}
+
+.category-ttl {
+    font-size: 20px;
+    color: darkred;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+}
+
+.category-detail {
+    font-size: 25px;
+    color: gray;
+    font-weight: bold;
+
+}
+
+.news-list {
+    border-top: solid 2px gray;
+    border-bottom: solid 2px gray;
+    padding: 20px 0;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    margin-top: 30px;
+}
+
+.news-item {
+    padding: 20px 100px 20px 0;
+    color:gray;
+    font-size: 15px;
+    border-bottom: solid 1px gray;
+}
+
+.news-item-mark {
+    padding: 5px 10px;
+    margin: 0 15px;
+    border-radius: 16px;
+    background-color: mediumvioletred;
+    color: white;
+    font-size: 12px;
+}
+
+.about {
+    margin-bottom: 50px;
+    background-color: rgb(206, 203, 203);
+    padding: 30px 0;
+}
+
+.about .category {
+    text-align: center;
+    height: 50px;
+}
+
+.unit {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px 0 200px;
+}
+
+.unit-img-container {
+    width: 50%;
+    height: auto;
+    margin: 0 0 0 auto;
+}
+
+.unit-img {
+    width: 100%;
+}
+
+.unit-text {
+    font-size: 16px;
+    color: gray;
+    margin-right: 200px;
+    line-height: 1.5em;
+}
+
+.service {
+    margin-bottom: 50px;
+    position: relative;
+    height: 600px;
+}
+
+.service .category {
+    height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.service .category-ttl {
+    position: absolute;
+    left: 20%;
+}
+
+.service .category-detail {
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+
+.wrap {
+    position: absolute;
+    left: 20%;
+    top: 80px;
+    width: 60%;
+    height: 500px;
+    display: flex;
+}
+
+.wrap-left {
+    width: 50%;
+    height: auto;
+    background-color: darkred;
+}
+
+.wrap-right-top {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: mediumvioletred;
+    display: flex;
+}
+
+.wrap-right-bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: plum;
+    display: flex;
+}
+
+.wrap-img-container {
+    width: 40%;
+    height: 50%;
+    margin: 10px 10px;
+}
+
+.wrap-img {
+    width: 100%;
+}
+
+.wrap-left .wrap-img-container {
+    margin: 10px auto;
+}
+
+.wrap-about {
+    color: white;
+}
+
+.wrap-about-ttl {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.wrap-about-text {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.wrap-left .wrap-about {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.wrap-left .wrap-about :nth-child(1) {
+    text-align: center;
+}
+
+.wrap-right-top .wrap-about {
+    margin: auto 0;
+}
+
+.wrap-right-bottom .wrap-about {
+    margin: auto 0;
+}
+
+.blog {
+    margin-bottom: 50px;
+    background-color: rgb(206, 203, 203);
+    z-index: -1;
+    padding: 30px 0;
+}
+
+.blog .category {
+    height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.blog .category-ttl {
+    position: absolute;
+    left: 20%;
+}
+
+.blog .category-detail {
+    position: absolute;
+    top: 20px;
+    left: 20%;
+}
+
+.blog-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20%;
+    height: 300px;
+}
+
+.blog-card {
+    width: 30%;
+    border-radius: 16px;
+    background-color: white;
+    position: relative;
+    z-index: 0;
+}
+
+.blog-card-img-container {
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.blog-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.blog-card-header {
+    position: relative;
+    z-index: 10;
+    color: white;
+    border-radius: 16px 0 0 0;
+    background-color: deeppink;
+    display: inline-block;
+    padding: 10px;
+}
+
+.blog-card-ttl {
+    position: absolute;
+    top: 60%;
+    padding: 20px;
+    line-height: 1.2em;
+}
+
+.blog-card-date {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    padding: 20px;
+}
+
+.blog-card-tag {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    padding: 20px 0;
+}
+
+.page {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px 50px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 100px;
+    border: solid darkmagenta 2px;
+    margin-top: 30px;
+}
+
+.page-link {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.company {
+    margin-bottom: 50px;
+    position: relative;
+    height: 450px;
+}
+
+.company .category {
+    height: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.company .category-ttl {
+    position: absolute;
+    left: 25%;
+}
+
+.company .category-detail {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+}
+
+.company-table {
+    position: absolute;
+    left: 25%;
+    width: 50%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.company-header {
+    background-color: rgb(200, 196, 196);
+    width: 30%;
+    padding: 20px;
+    border: solid 1px #ccc;
+    text-align: left;
+    color: rgb(112, 111, 111);
+}
+
+.company-description {
+    background-color: #dedede;
+    padding: 20px;
+    border: solid 1px #ccc;
+    color: grey;
+}
+
+.info {
+    height: 300px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.recruit {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/recruit.png);
+}
+
+.recruit-link {
+    text-decoration: none;
+}
+
+.recruit-ttl {
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.interview {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/interview.png);
+}
+
+.interview-link {
+    text-decoration: none;
+}
+
+.interview-ttl {
+    color: white;
+    font-size: 32px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.contact {
+    text-align: center;
+    height: 250px;
+}
+
+.contact-ttl {
+    font-size: 24px;
+    font-style: bold;
+    color: darkslategrey;
+    margin-bottom: 20px;
+}
+
+.stripe {
+    font-size: 36px;
+    margin-bottom: 48px;
+}
+
+.contact-btn {
+    text-decoration: none;
+    padding: 24px 50px;
+    border-radius: 100px;
+    background: linear-gradient(90deg, rgb(241, 133, 241), rgb(166, 2, 166));
+    color: white;
+    box-shadow: 0px 10px 0px rgba(149, 6, 6, 0.646);
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.contact-btn::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    background-image: url(../img/mailicon.svg);
+    width: 25px;
+    height: 25px;
+}
+
+.footer {
+    height: 50px;
+    background-color: #dedede;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: gray;
+    transform: translate(-50%, -50%);
+}
+
+/* * {border: solid 2px red;} */
